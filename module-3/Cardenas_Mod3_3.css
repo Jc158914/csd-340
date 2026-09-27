@@ -1,0 +1,49 @@
+/*
+    Juan Cardenas
+    September 27, 2026
+    Module 3.3 Assignment
+*/
+#container {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+h1 {
+    text-align: center;
+}
+.left, .right {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+}
+h3 {
+    font-weight: 500;
+}
+.book-list {
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 10px;
+}
+.learned-list {
+    border: 1px dashed red;
+    border-radius: 15px;
+    padding: 10px;
+}
+ol {
+    font-weight: 300;
+    padding: 10px;
+    list-style-position: inside;
+}
+.right ol {
+    list-style-type: upper-roman;
+}
+a:hover {
+    text-decoration: underline;
+}
+.bottom {
+    width: 100%;
+    margin-top: 60%;
+    margin-bottom: 20px;
+}
+.bottom a {
+    float: right;
+}
