@@ -1,0 +1,110 @@
+<!--
+    Juan Cardenas
+    November 8, 2026
+    Module 9.3 Assignment
+-->
+    
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="description"
+    content="A personal introduction using JavaScript to reveal missing words.">
+    <meta name="keywords"
+    content="CSD 340, HTML, CSS, JavaScript, Web Development">
+    <meta name="robots"
+    content="noindex">
+    <meta name="author"
+    content="Juan Cardenas">
+
+    <link rel="stylesheet" href="Cardenas_Mod9_3.css">
+
+    <title>CSD 340 Web Development with HTML and CSS</title>
+
+    <script>
+        var word1 = "software";
+        var word2 = "JavaScript";
+        var word3 = "Frito-Lay";
+        var word4 = "marathon";
+    </script>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Assignment 9.3: JavaScript - Part 1</h1>
+        <h2>Chapter 1: HTML and JavaScript</h2>
+
+        <p class="intro">
+            My name is Juan Cardenas, and I am currently pursuing
+            my degree in <span id="word1">________</span> development
+            at Bellevue University. I was born in Granada Hills,
+            California, and now live in Texas. Going back to school
+            has been a rewarding experience, and I enjoy challenging
+            myself by learning new skills.
+        </p>
+
+        <p>
+            Throughout my degree program, I have gained experience
+            with different programming languages, including Python,
+            HTML, CSS, and most recently
+            <span id="word2">________</span>. Each course has helped
+            me become more comfortable with coding, and I look
+            forward to continuing to build my knowledge as I work
+            toward my degree.
+        </p>
+
+        <p>
+            Outside of school, I work for
+            <span id="word3">________</span> as a Team Supervisor
+            at one of our Traffic Centers. I have been with the
+            company for over eight years and currently work the
+            overnight shift. Balancing a full-time job with school
+            can be challenging, but it has taught me the importance
+            of time management and staying committed to my goals.
+        </p>
+
+        <p>
+            In my free time, I enjoy staying active through running
+            and going to the gym. One of my biggest accomplishments
+            this year has been setting a new personal record in the
+            half marathon, and I am currently preparing for my next
+            <span id="word4">________</span>. Running has become an
+            important part of my life because it challenges me both
+            physically and mentally. I also enjoy spending time
+            with my friends and family whenever I get the chance.
+        </p>
+
+        <button type="button"
+            onclick="document.getElementById('word1').innerHTML = word1">
+            software
+        </button>
+
+        <button type="button"
+            onclick="document.getElementById('word2').innerHTML = word2">
+            JavaScript
+        </button>
+
+        <button type="button"
+            onclick="document.getElementById('word3').innerHTML = word3">
+            Frito-Lay
+        </button>
+
+        <button type="button"
+            onclick="document.getElementById('word4').innerHTML = word4">
+            marathon
+        </button>
+
+        <hr>
+
+        <address>
+            <p>
+                <a href="https://www.bellevue.edu/">
+                    Bellevue University
+                </a>
+            </p>
+            <p>1000 Galvin Road South</p>
+            <p>Bellevue, Nebraska 68005</p>
+        </address>
+    </div>
+</body>
+</html>
